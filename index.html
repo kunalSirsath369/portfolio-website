@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">KunalShirsath.</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#skills" uk-scroll>Skills & Certificate</a></li>
+
+        </ul>
+
+    </div>
+</nav>
+<!-- Navigation Bar Ends  -->
+
+<!-- Navigation Bar Mobile -->
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">KunalShirsath.</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+        </ul>
+
+    </div>
+</nav>
+<!-- Change This -->
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+            <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
+
+        </ul>
+
+
+
+
+    </div>
+</div>
+
+<!-- Navigation Bar Mobile Ends -->
+<!-- Home -->
+<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <div class="heros">
+        <div class="left-side">
+    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">Hi👋 I'm Kunal,<br> a passionate and versatile expert in Machine Learning, Frontend Development, and UI/UX Design</h1>
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a></div>
+    <img src="qrcode_github.com.png" alt="">
+</div>
+
+
+
+</section>
+
+<!-- Home Ends -->
+<br>
+
+
+<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<!-- About Me -->
+<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+<!-- Change here to ur paragraph -->
+<p class="uk-margin-xlarge-left uk-margin-xlarge-right">Kunal is a passionate and innovative expert with a deep-rooted love for art and technology. Hailing from Jalgaon, Maharashtra, he has completed his diploma in Computer Engineering from Government Polytechnic Ambad. Kunal has developed a versatile skill set, with a strong focus on Machine Learning, Frontend Development, and UI/UX Design. His four months of experience in UX/UI design have honed his ability to create intuitive and aesthetically pleasing user interfaces, blending creativity with technical precision. <br><br>Driven by a passion for creating new and useful solutions, Kunal thrives on the challenge of pushing the boundaries of what is possible. His love for art enhances his design approach, allowing him to infuse his work with a unique blend of creativity and functionality. Whether working on intelligent applications or crafting beautiful user experiences, Kunal is dedicated to making a meaningful impact through his innovative and thoughtful designs.</p>
+<a href="https://www.instagram.com/kunal_s73/" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="instagram"></a> &nbsp;<a href="https://dribbble.com/shirsathkunal11" class="uk-light uk-button-text" uk-icon="dribbble"></a> &nbsp;<a href="https://github.com/kunalSirsath369" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/kunal-shirsath-369om/" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
+
+<!-- About Me Ends -->
+
+
+
+
+</section>
+
+<!-- Projects Section -->
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+<p class="uk-margin-xlarge-left">Projects that i've been working on</p>
+
+<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <!-- Change all of this to ur projects -->
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+        <h4>Malaria Diagnosis Using Convolutional Neural Networks</h4>
+        <p>Developed a convolutional neural network model using TensorFlow to diagnose malaria from blood smear images.
+            Achieved an accuracy of 95% on the test dataset.
+            Utilized data augmentation and regularization techniques to improve model performance.
+            Visualized training and validation loss/accuracy using Matplotlib.</p>
+        <a class="uk-button-text uk-text-decoration-none" href="https://github.com/kunalSirsath369/Malaria-Diagnosis-Using-Convolutional-Neural-Networks">
+            <span uk-icon="icon: link">
+            </span> View </a>
+        </div>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>Car Price Prediction - Building Neural Networks with TensorFlow</h4>
+            <p>Built a neural network model to predict car prices using TensorFlow.
+                Performed data preprocessing and feature engineering to enhance model performance.
+                Achieved an R-squared score of 0.90 on the validation dataset.
+                Visualized the results and model performance using Matplotlib.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://github.com/kunalSirsath369/Car-Price-Prediction---Building-Neural-Networks-with-TensorFlow">
+                <span uk-icon="icon: link">
+                </span> View </a>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Olympics Data Analysis Using Scikit-Learn</h4>
+                <p>Analyzed historical Olympics data to uncover trends and insights using Scikit-Learn.
+                    Implemented various machine learning algorithms for classification and regression tasks.
+                    Achieved an accuracy of 88% on classification tasks.
+                    Visualized data distributions, trends, and model performance using Seaborn and Matplotlib.</p>
+                <a class="uk-button-text uk-text-decoration-none" href="https://github.com/kunalSirsath369/Olympics-Data-Analysis">
+                    <span uk-icon="icon: link">
+                    </span> View </a>
+                </div>
+                <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                    <h4>Movie Recommendation Using Scikit-Learn</h4>
+                    <p>Developed a movie recommendation system using collaborative filtering techniques in Scikit-Learn.
+                        Preprocessed and analyzed movie ratings data to build an effective recommendation model.
+                        Achieved a Mean Squared Error (MSE) of 0.80 on the test dataset.</p>
+                    <a class="uk-button-text uk-text-decoration-none" href="https://github.com/kunalSirsath369/Movie_Recommendation">
+                        <span uk-icon="icon: link">
+                        </span> View </a>
+                    </div>
+        
+        </div>
+
+
+
+    <br>
+
+
+</section>
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+</div>
+<!-- Projects Section Ends -->
+<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">Skills</h3>
+<p class="uk-margin-xlarge-left">Skills I've Developed and Applied</p>
+
+<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <!-- Change all of this to ur projects -->
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+        <h4>Machine Learning</h4>
+        <p>Algorithms: Regression, Classification, Clustering, Neural Networks. <br><br>
+            Tools: TensorFlow, PyTorch, scikit-learn, Pandas. <br><br>
+            Techniques: Data Preprocessing, Model Evaluation, Hyperparameter Tuning. <br><br>
+            Deployment: REST APIs, Cloud Platforms.</p>
+        <a class="uk-button-text uk-text-decoration-none" href="https://www.udemy.com/certificate/UC-36005932-15fd-4591-b41e-9b7d2f3c0064/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com">
+            <span uk-icon="icon: link">
+            </span> Certificate </a>
+        </div>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>UI/UX Design</h4>
+            <p>Principles: User-Centered Design, Accessibility, Usability. <br><br>
+                Tools: Adobe XD, Figma, Sketch.<br><br>
+                Methods: Wireframing, Prototyping, User Research.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://www.coursera.org/account/accomplishments/professional-cert/ANLD8KGT9KMG">
+                <span uk-icon="icon: link">
+                </span> Certificate </a>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <h4>Frontend Development</h4>
+                <p>Languages: HTML, CSS, JavaScript.<br><br>
+                    Frameworks: React, Angular, Vue.js.<br><br>
+                    Tools: Git, Webpack, npm/yarn.<br><br>
+                    Performance: Optimization, Cross-Browser Compatibility.</p>
+                <a class="uk-button-text uk-text-decoration-none" href="https://www.credly.com/badges/82f39447-3393-4e44-b841-33922ed5128f">
+                    <span uk-icon="icon: link">
+                    </span> Certificate </a>
+                </div>
+        </div>
+ 
+</section>
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+</div>
+<div class="portfolio-footer">
+    Passionate about creating impactful solutions and always eager to learn and grow in Machine Learning, UI/UX Design, and Frontend Development. <br><br>
+    <div class="contact-info">
+        📧 Email: <a href="mailto:shirsathkunal11@gmail.com">shirsathkunal11@gmail.com</a><br>
+        📞 Phone: <a href="tel:+917588072877">7588072877</a>
+    </div>
+</div>
+
+</body>
+</html>

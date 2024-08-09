@@ -1,0 +1,30 @@
+html{
+    font-family: IBM Plex Mono;
+}
+
+
+.portfolio-footer {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 100px;
+}
+.heros{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+.heros img{
+    width: 30%;
+    height: 350px;
+    margin-right: 50px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+
+}
+.left-side a{
+    width: 150px;
+}
